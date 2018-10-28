@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="RollingStone.java" package="" timestamp="28-Oct-2018 20:08:21">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="Card.java" package="" timestamp="28-Oct-2018 17:37:31">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="CardCollection.java" package="" timestamp="28-Oct-2018 17:39:24">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="Hand.java" package="" timestamp="28-Oct-2018 17:39:35">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="Test.java" package="" timestamp="28-Oct-2018 17:48:31">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="Deck.java" package="" timestamp="28-Oct-2018 17:49:14">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+      <file name="Player.java" package="" timestamp="28-Oct-2018 20:09:15">
+        <select from="6013" to="6013"/>
+        <scroll column="3040" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
