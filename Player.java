@@ -1,6 +1,3 @@
-//import java.util.Arrays;
-//import java.util.IntSummaryStatistics;
-//import java.util.Math;
 import java.util.HashMap; 
 import java.util.Map; 
 import java.util.Map.Entry; 
@@ -153,6 +150,4 @@ public class Player {
     public void display() {
         hand.display();
     }
-
-
 }
