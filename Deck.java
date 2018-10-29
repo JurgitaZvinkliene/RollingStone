@@ -16,6 +16,10 @@ public class Deck extends CardCollection {
             }
         }
     }
+   
+     /**
+     * Constructs resized deck.
+     */
     
      public Deck(String label, int playerCount) {
          super(label);
