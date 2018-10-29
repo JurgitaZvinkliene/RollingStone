@@ -12,7 +12,6 @@ import java.io.InputStreamReader;
 public class RollingStone {
 
     private ArrayList<Player> playerPool;
-    //private Hand drawPile;
     private Hand discardPile;
     private Scanner in;
     
@@ -33,14 +32,9 @@ public class RollingStone {
             deck.deal(player.getHand(), handSize);
         }
         discardPile = new Hand("Discards");
-        //deck.deal(discardPile, 1);  // turn one card face up  CIA REIKIA PATAISYTI!!!!!!!!!
-        
-        // create the scanner we'll use to wait for the user
         in = new Scanner(System.in); 
     }
     
- 
-
     /**
      * Returns true if either hand is empty.
      */
@@ -70,7 +64,6 @@ public class RollingStone {
         } return null;
     }
     
- 
     /**
      * Displays the state of the game.
      */
@@ -151,29 +144,23 @@ public class RollingStone {
      /**
      *  Gets from the user the number of players
      */
-    
-    
+  
     public static int enterPlayerCount() throws IOException {
         boolean flag = false;
         int playerCount = 0;
-        
-        //Enter data using BufferReader 
-        
+      
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Please enter how many players will play: ");    
         while (flag == false){
         try{  
-            // Reading data using readLine 
-            
             playerCount = Integer.parseInt(reader.readLine());
                 if (playerCount < 4 ||playerCount > 6) {
                     System.out.println("It can't be less than 4 and more than 6 players. Please enter again.");
-                    //playerCount = Integer.parseInt(reader.readLine());
                 } else {
                     flag = true;
                 }
         } catch (NumberFormatException e) {
-            System.out.println("That’s not an integer. Try again: ");
+            System.out.println("Thatâ€™s not an integer. Try again: ");
         }
         }
         reader.close();
@@ -185,11 +172,8 @@ public class RollingStone {
      */
     
     public static ArrayList<Player> createPool(int playerCount)throws IOException {
-         //Enter data using BufferReader 
+      
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));        
-        
-        // Reading data using readLine 
- 
         String name="";  
         ArrayList<Player> playerPool = new ArrayList<Player>();
         int enter = 1;
@@ -213,5 +197,3 @@ public class RollingStone {
             game.playGame();
         }
     }
-
-
